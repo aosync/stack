@@ -14,8 +14,8 @@
 		X popcont; \
 	}
 
-#define stinit(X, T) ( \
-	(X).mbs = sizeof(T), \
+#define stinit(X) ( \
+	(X).mbs = sizeof((X).popcont), \
 	(X).len = 0, \
 	(X).data = NULL)
 

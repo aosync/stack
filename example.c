@@ -11,7 +11,7 @@ void pop(int_stack *t) {
 
 int main() {
 	int_stack t;
-	stinit(t, int);
+	stinit(t);
 
 	stpush(t, 42);
 	stpush(t, 69);
